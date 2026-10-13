@@ -1,4 +1,4 @@
-id|correo|categoria|descripcion
+id|correo|categoria
  SOL-0001 | alumno1@cucea.udg.mx | Acceso | No puedo ingresar al sistema 
  SOL-0002 | alumno2@cucea.udg.mx |ACCESO| No puedo ingresar al sistema 
  SOL-0003 | alumno3@cucea.udg.mx |acceso| No puedo ingresar al sistema 

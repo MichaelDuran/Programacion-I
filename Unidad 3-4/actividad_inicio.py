@@ -2,9 +2,10 @@
 from pathlib import Path
 from datetime import datetime
 import json
+import sys
 BASE = Path(__file__).resolve().parent
-ENTRADA = BASE / "datos" / "solicitudes.txt"
-SALIDA = BASE / "salidas"
+ENTRADA = Path(sys.argv[1]) if len(sys.argv) > 1 else BASE / "datos" / "solicitudes.txt"
+SALIDA = Path(sys.argv[2]) if len(sys.argv) > 2 else BASE / "salidas"
 ENCABEZADO_ESPERADO = "id|correo|categoria|descripcion"
 CATALOGO = {"acceso", "pago_en_línea", "soporte_técnico"}
 DIGITOS = "0123456789"
@@ -127,7 +128,7 @@ def verificar(total, validos, rechazados, por_categoria):
         assert sum(resumen["por_categoria"].values()) == validos, "suma por categoria != validos"
 
 def main():
-    SALIDA.mkdir(exist_ok=True)
+    SALIDA.mkdir(parents=True, exist_ok=True)
     try:
         validos, rechazos, por_categoria, vacias, total = procesar(ENTRADA)
         escribir_limpias(validos)
