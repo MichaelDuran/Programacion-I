@@ -372,23 +372,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-# ### Pruebas mínimas con evidencia
-#
-# | Control sobre los archivos originales | Resultado esperado | Resultado obtenido |
-# | --- | --- | --- |
-# | Líneas de datos sin cabecera, incluida la vacía | 30 | 30 |
-# | Registros válidos / rechazados | 24 / 6 | 24 / 6 |
-# | Solicitudes por categoría normalizada | acceso: 9 * pago_en_línea: 9 * soporte_técnico: 6 | acceso: 9 * pago_en_línea: 9 * soporte_técnico: 6
-# | Categorías distintas en etiquetas.txt antes / después | 9/3 | 9/3 |
-# | Líneas físicas rechazadas | 26, 27, 28, 29, 30 y 31 | 26, 27, 28, 29, 30 y 31 |
-# | Tasa de rechazo y tasa de aceptación | 20% y 80% | 20% y 80% |
-#
-# ### Prueba 1: Realizar dos ejecuciones
-# Una vez realizadas las dos ejecuciones se crea la carpeta "salidas", la cual contiene los archivos: ejecuciones.log, rechazos.jsonl, resumen.json y solicitudes_limpias.txt
-#
-# | Prueba | ejecuciones.log | rechazos.jsonl | solicitudes_limpias.txt | resumen.json |
-# | --- | --- | --- | --- | --- |
-# | 1 | 1 | 6 | 25 líneas (1 cabecera + 24 solicitudes) | total: 30 * validos: 24 * rechazados: 6 * categorías: 9/9/6 |
-# | 2 | 2 | 6 | 25 líneas (1 cabecera + 24 solicitudes) | total: 30 * validos: 24 * rechazados: 6 * categorías: 9/9/6 |
