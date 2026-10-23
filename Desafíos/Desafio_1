@@ -1,0 +1,6 @@
+### Desafío 1
+"""Un palíndromo es una palabra o frase que se lee igual de adelante hacia atrás que de atrás
+hacia adelante, ignorando los espacios, puntuación y capitalización. El desafío es crear un
+programa que tome una cadena ingresada por el usuario y determine si es un palíndromo"""
+
+input(¿Cuál es tu nombre? )
