@@ -29,3 +29,26 @@ Entrada:
     Escribe los valores que quieres poner en el histograma: 3 7 2 5 1
 
 Salida:
+    3|***
+    7|*******
+    2|**
+    5|*****
+    1|*
+
+Un 0 genera una barra vacía (0|)
+
+Manejo de errores
+Si la entrada no es válida, el programa muestra un mensaje y vuelve a pedir los números (no termina):
+
+Entrada                                  | Mensaje
+Enter sin escribir nada, o solo espacios | Por favor, escribe números para generar tu histograma.
+Letras o decimales                       | Por favor, escribe sólo números enteros.
+Números negativos                        | No se permite números negativos
+Números mayores a 100                    | El valor máximo permitido es 100.
+
+El límite 100 evita que un valor muy grande llene la terminal de asteriscos.
+
+Decisiones de diseño
+Decimales: se rechazan en lugar de redondearse, para no modificar en silencio los datos del usuario.
+Cero: se permite, porque en un histograma representa una barra vacía.
+Reintento: se usa un ciclo while para que el usuario pueda corregir su entrada sin reiniciar el programa.
