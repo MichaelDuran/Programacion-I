@@ -29,22 +29,19 @@ Reforzar y ampliar el conocimiento de Python poniendo en práctica la teoría en
 
 | # | Desafío | Descripción | Archivo |
 |---|---------|-------------|---------|
-| 1 | Palíndromos | Determinar si una cadena ingresada por el usuario es palíndromo, ignorando espacios, puntuación y mayúsculas. | `desafio_1.py` |
-| 2 | Generador de histograma | Generar un histograma con asteriscos a partir de una lista de números. | `desafio_2.py` |
-| 3 | Administrador de contactos | Agregar, listar, buscar y eliminar contactos (nombre, teléfono, correo) usando listas, tuplas, diccionarios y funciones. | `desafio_3.py` |
-| 4 | `map`, `filter` y `reduce` propios | Implementar versiones propias de estas tres funciones. | `desafio_4.py` |
-| 5 | Composición de funciones | Función `componer` que recibe una lista de funciones y devuelve su composición. | `desafio_5.py` |
-| 6 | Contador de palabras | Leer un archivo de texto, contar las ocurrencias de cada palabra y escribir las estadísticas en un nuevo archivo. | `desafio_6.py` |
+| 1 | Palíndromos | Determinar si una cadena ingresada por el usuario es palíndromo, ignorando espacios, puntuación y mayúsculas. | [desafio_1.py](Desaf%C3%ADos/desafio_1.py) |
+| 2 | Generador de histograma | Generar un histograma con asteriscos a partir de una lista de números. | [desafio_2.py](Desaf%C3%ADos/desafio_2.py) |
+| 3 | Administrador de contactos | Agregar, listar, buscar y eliminar contactos (nombre, teléfono, correo) usando listas, tuplas, diccionarios y funciones. | [desafio_3.py](Desaf%C3%ADos/desafio_3.py) |
+| 4 | `map`, `filter` y `reduce` propios | Implementar versiones propias de estas tres funciones. | [desafio_4.py](Desaf%C3%ADos/desafio_4.py) |
+| 5 | Composición de funciones | Función `componer` que recibe una lista de funciones y devuelve su composición. | [desafio_5.py](Desaf%C3%ADos/desafio_5.py) |
+| 6 | Contador de palabras | Leer un archivo de texto, contar las ocurrencias de cada palabra y escribir las estadísticas en un nuevo archivo. | [desafio_6.py](Desaf%C3%ADos/desafio_6.py) |
 | 7 | Copia de archivos con filtrado | Copiar un archivo a otro excluyendo las líneas que contengan una palabra prohibida indicada por el usuario. | `desafio_7.py` |
 | 8 | Debugging de un script de ordenación | Corregir un script de ordenamiento cuya lógica de intercambio es errónea. | `desafio_8.py` |
 | 9 | Corrección de un error de tipo | Hacer que una función de concatenación funcione con listas de tipos mixtos sin lanzar `TypeError`. | `desafio_9.py` |
 
-> Ajusta los nombres de archivo de la tabla a los que realmente usaste.
-
 ## Archivos de apoyo
 
-- `texto_desafio_6.txt`: texto de entrada para el contador de palabras.
-- `texto_desafio_7.txt`: texto de entrada para la copia con filtrado.
+- [texto.txt](texto.txt): texto de entrada para el contador de palabras.
 
 ## Cómo ejecutar
 
